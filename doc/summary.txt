@@ -1,0 +1,21 @@
+Solution walkthrough
+
+I'll be using this document to explain my approach to reach the solution, step-by-step. It's something I think will be useful to you while evaluating my design, and probably will provide information about myself in the process.
+
+1. Problem assessment
+
+  My first step on any assignment is to know the most I can about the problem to be solved. Once I decide I have enough information, or where to go to get the information I need, I move to the next step. 
+   
+  Depending on the size of the problem, generally at this point I already have an initial idea of the architecture, and which tools and technologies I'll be using.
+
+2. Prototyping
+ Once I understood the problem, the requirements and constraints, I usually like to create a POC, a quick-and-dirty brute-force version just to prove to myself that my assumptions are correct, yet functional enough to validate ideas and detect problems early in the process. 
+
+  For this specific test, I created a simple Java class which simulates the final functionality. So far so good.
+
+3. Design
+
+   I've decided to move towards a solution using plain Java and Maven as the dependency manager. My next step was to create a maven project, and add it to GIT.
+
+   Next, I've created an unitary test to validate the requirements, and I'll evolve the solution from that, using a TDD approach.
+
