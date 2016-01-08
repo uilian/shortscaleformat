@@ -14,7 +14,7 @@ Requirements
 Building and Testing
 -------------------------
 
-Run tests: mvn test
-Create Jar: mvn package
-Complete: mvn install
+ - Run tests: mvn test
+ - Create Jar: mvn package
+ - Complete: mvn install
 
